@@ -4,7 +4,7 @@ import { socialNetworks } from "../../data";
 
 const Header = () => {
     return (  
-        <MotionTransition position="buttom" className="absolute z-40 inline-block w-full top-5 md:top-10 px-20">
+        <MotionTransition position="buttom" className="absolute z-40 inline-block w-full top-5 md:top-10 px-20 md:pl-20 sm:px-0">
             <header>
                 <div className="container justify-between max-w-6xl mx-auto md:flex">
                     <Link href="/">
