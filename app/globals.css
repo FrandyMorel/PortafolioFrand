@@ -18,6 +18,12 @@ height: 100dvh;
   }
 }
 
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+.swiper-pagination-bullet {
+  background-color: #f5c74c;
+}
+
 @theme {
   --color-secondary: #F5C857;
   --color-darkbg: #344CB7;

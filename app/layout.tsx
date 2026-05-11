@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { Urbanist } from "next/font/google";
+import 'swiper/css'
+import 'swiper/css/pagination'
+import 'swiper/css/scrollbar'
 import "./globals.css";
 import Navbar from "./Components/Navbar";
 import Header from "./Components/Header";
