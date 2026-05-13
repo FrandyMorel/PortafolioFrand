@@ -14,7 +14,7 @@ const PageService = () => {
 
 <div className="grid items-center py-30 justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2 md:px-20">
   
-  <div className="max-w-[420px] px-10 md:px-0">
+  <div className="max-w-[420px] z-10 px-10 md:px-0">
     
     <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">
       Mis{" "}
@@ -30,7 +30,7 @@ const PageService = () => {
       interfaces de usuario intuitivas y responsivas que reflejan
       la identidad de marca de mis clientes y mejoran su presencia en línea.
     </p>
-        <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Contacta conmigo</button>
+        <button className="px-3 py-2 rounded-lg md:mt-2 bg-secondary hover:bg-secondary/65">Contacta conmigo</button>
   </div>
    
    {/* slider */}
