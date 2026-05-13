@@ -24,8 +24,8 @@ export const fadeIn = (position: 'right' | 'buttom'): Variants => {
             opacity: 1,
             transition:{
                 type: "tween",
-                duration: 0.5,
-                delay: 0.3,
+                duration: 1.3,
+                delay: 0.6,
                 ease: [0.25, 0.25, 0.25, 0.75]
             }
         },
