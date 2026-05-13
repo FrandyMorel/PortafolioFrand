@@ -24,6 +24,16 @@ height: 100dvh;
   background-color: #f5c74c;
 }
 
+/* Oculta scrollbar pero mantiene scroll */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE y Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
 @theme {
   --color-secondary: #F5C857;
   --color-darkbg: #344CB7;

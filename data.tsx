@@ -21,11 +21,11 @@ export const socialNetworks = [
         logo: <File size={30} strokeWidth={1} />,
         src: "#!",
     },
-    {
-        id: 5,
-        logo: <Phone size={30} strokeWidth={1} />,
-        src: "#!",
-    },
+    // {
+    //     id: 5,
+    //     logo: <Phone size={30} strokeWidth={1} />,
+    //     src: "#!",
+    // },
 ];
 
 
@@ -54,71 +54,71 @@ export const itemsNavbar = [
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
-    {
-        id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
-    },
+    // {
+    //     id: 5,
+    //     title: "Home",
+    //     icon: <Speech size={25} color="#fff" strokeWidth={1} />,
+    //     link: "/testimonials",
+    // },
 ];
 
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Graduación Universitaria",
+        subtitle: "Instituto Tecnológico de Santo Domingo (INTEC)",
+        description: "Consiguió su título universitario en Ingeniería de Software, demostrando un compromiso excepcional con la excelencia académica y una pasión por el desarrollo de software.",
+        date: "Oct 2026",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Pasantía Laboral",
+        subtitle: "HanesBrands Inc.",
+        description: "Colaboró con un equipo de ingenieros para llevar a cabo un proyecto de automatizión y optimización de reportes y eficiencia de maquinas utilizando la implementación de la Industria 4.0 del IoT.",
+        date: "Feb 2026",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Proyecto Final de Grado",
+        subtitle: "PacaTrack",
+        description: "Junto a equipo de compañeros desarrolladores, se construyó una aplicación web innovadora que se utiliza para gestionar logistica negocios de segunda mano (Pacas) en la República Dominicana, facilitando el inventariado, las ventas y la gestion de sucursales",
+        date: "Jul 2025",
     },
-    {
-        id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
-    },
-]
+//     {
+//         id: 4,
+//         title: "Prácticas Grado",
+//         subtitle: "WebWizards Inc.",
+//         description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
+//         date: "Mar 2018",
+//     },
+ ]
 
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
-        text: "Años de experiencia",
+        endCounter: 12,
+        text: "Meses de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 80,
-        text: "Clientes satisfechos",
+        endCounter: 4,
+        text: "Proyectos en proceso",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: 220,
-        text: "Proyectos finalizados",
+        endCounter: 3,
+        text: "Proyectos Realizados",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
+        endCounter: 6,
+        text: "Certicados obtenidos",
         lineRight: false,
         lineRightMobile: false,
     },
