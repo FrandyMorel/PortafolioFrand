@@ -19,7 +19,7 @@ const PortfolioBox = (props: IportfolioBoxProps) => {
     
         <div className="p-4 border-2 rounded-xl border-teal-50 hover:shadow-lg hover:shadow-teal-50/80 transition duration-150">
             <h3 className="mb-4 text-xl">{title}</h3>
-            <Image src={image} alt="Image product" width={300} height={300} 
+            <Image src={image} alt="Image product" width={200} height={200} 
             className="w-full md:w-[200px] md:h-[120px] rounded-2xl"/>
          
          <div className="flex gap-5 mt-5">
