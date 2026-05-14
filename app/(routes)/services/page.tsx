@@ -14,23 +14,21 @@ const PageService = () => {
 
 <div className="grid items-center py-30 justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2 md:px-20">
   
-  <div className="max-w-[420px] z-10 px-10 md:px-0">
+  <div className="max-w-[420px] z-10 mt-4 md:mt-0 px-10 md:px-0">
     
-    <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">
-      Mis{" "}
+    <h1 className="text-xl leading-tight text-center md:text-left md:text-4xl md:mb-5">
+      Habilidades{" "}
       <span className="font-bold text-secondary">
-        servicios.
+        en las que destaco.
       </span>
     </h1>
-
-    <p className="mb-3 md:text-xl lg:text-xl text-sm md:mr-10 text-gray-300">
-      Ofrezco servicios de desarrollo web frontend especializados en la creación
-      de sitios web y aplicaciones atractivas y funcionales.
-      Utilizando las últimas tecnologías, como HTML, CSS y JavaScript, diseño
-      interfaces de usuario intuitivas y responsivas que reflejan
-      la identidad de marca de mis clientes y mejoran su presencia en línea.
+    
+    <p className="mb-3 md:text-xl lg:text-xl text-sm mt-2 md:mr-10 ml-4 md:ml-0 text-gray-300">
+      En mi trayectoria profesional he desarrollado habilidades técnicas y creativas
+       que me permiten crear soluciones innovadoras y adaptadas a las necesidades de cada proyecto,
+        siempre enfocándome en la calidad y los resultados.
     </p>
-        <button className="px-3 py-2 rounded-lg md:mt-2 bg-secondary hover:bg-secondary/65">Contacta conmigo</button>
+        <button className="px-3 py-2 rounded-lg mt-2 ml-4 md:ml-0 bg-secondary hover:bg-secondary/65">Contacta conmigo</button>
   </div>
    
    {/* slider */}

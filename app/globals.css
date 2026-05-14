@@ -3,7 +3,7 @@
 html, body {
   color: #fff;
   background: #344CB7;
-
+  overflow: hidden;
 }
 
 main {
@@ -26,7 +26,7 @@ height: 100dvh;
 
 /* Oculta scrollbar pero mantiene scroll */
 .scrollbar-hide {
-  -ms-overflow-style: none; /* IE y Edge */
+  -overflow-style: none; /* IE y Edge */
   scrollbar-width: none; /* Firefox */
 }
 

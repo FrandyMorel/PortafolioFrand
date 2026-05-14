@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Github, Linkedin, Phone, File, Instagram, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Github, Linkedin, Phone, File, Instagram, Crop, Database, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -126,29 +126,29 @@ export const dataCounter = [
 
 export const serviceData = [
     {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
-    },
-    {
         icon: <Pencil />,
         title: "Diseño web",
         description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
     },
-    {
+       {
         icon: <Computer />,
         title: "Desarrollo web",
         description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
     },
     {
+        icon: < Database/>,
+        title: "Manejo de Bases de Datos",
+        description: "Manejo eficiente de bases de datos, incluyendo diseño, optimización y mantenimiento",
+    },
+    {
         icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        title: "Documentación",
+        description: "Creación de documentación clara y detallada, incluyendo diagramación, manuales de usuario y guías de implementación",
     },
     {
         icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        title: "Analisis de datos",
+        description: "Análisis de datos para obtener información valiosa y apoyar la toma de decisiones mediante el uso de herramientas y técnicas avanzadas",
     },
 ];
 

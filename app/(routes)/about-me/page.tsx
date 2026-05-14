@@ -4,14 +4,15 @@ import Avatar from "@/app/Components/avatar";
 import CounterServices from '../../Components/counter-service';
 import TimeLine from '../../Components/time-line';
 
+
 const PageAboutMe = () => {
     return ( 
-        <>
+        <div className="PageAboutme">
         <TransitionPage/>
         <ContainerPage>
             <Avatar/>
             <h1 className="text-2xl leading-tight text-center
-            md:text-4xl md:text-left md:mt-8">Toda mi{' '}
+            md:text-4xl md:text-left">Toda mi{' '}
                 <span className="font-black text-secondary">
                     trayectoria profesional
                 </span>
@@ -19,8 +20,7 @@ const PageAboutMe = () => {
             <CounterServices />
             <TimeLine />
         </ContainerPage>
-        </>
-        
+        </div>
      );
 }
  
