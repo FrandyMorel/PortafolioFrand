@@ -20,7 +20,7 @@ const PorfolioPage = () => {
                </h1>
 
                <div className="relative z-10 grid max-w-4xl gap-6 mx-auto
-               mt-4 md:grid-cols-4">
+               mt-4 sm:grid-cols-2 md:grid-cols-4">
                   {dataPortfolio.map((data) => (
                      <PortfolioBox key={data.id} data={data} />
                   ))}

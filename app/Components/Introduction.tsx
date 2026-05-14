@@ -36,11 +36,12 @@ const Introduction = () => {
 
                 <div className='flex item-center md:mt-7 justify-center gap-3 md:mb-0 mb-30 md:justify-start md:gap-12'> 
 
-                    <Link href="/projects" className='px-3 py-2 transition-all border-2 
+                    <Link href="/portfolio" className='px-3 py-2 transition-all border-2 
                 cursor-pointer text-md w-fit rounded-2xl hover:shadow-xl hover:shadow-white/25'>
                     Ver proyectos
                 </Link>
-                <Link href="/contact" className='px-3 py-2 transition-all border-2 text-secondary border-secondary
+                <Link href="https://wa.me/18299098558?text=Hola%20¿Me%20comunico%20con%20Frandy%20Morel?%20Me%20interesa%20su%20perfil."
+                target="_blank" rel="noopener noreferrer" className='px-3 py-2 transition-all border-2 text-secondary border-secondary
                 cursor-pointer text-md w-fit rounded-2xl hover:shadow-xl hover:shadow-secondary/25'>
                     Contacta conmigo
                 </Link>
