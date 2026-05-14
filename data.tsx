@@ -152,63 +152,64 @@ export const serviceData = [
     },
 ];
 
-export const dataPortfolio = [
+export const                     
+ dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "www.github.com/sergiocarrasco",
-        urlDemo: "#!",
+        title: "E-commerce web",
+        image: "/Projct1.png",
+        urlGithub: "https://github.com/FrandyMorel/Yourfavoritestore",
+        urlDemo: "https://yourfavoritestore-gryi.vercel.app/",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
-        urlGithub: "www.github.com/sergiocarrasco",
-        urlDemo: "#!",
+        title: "Portafolio Personal",
+        image: "/Projct2.png",
+        urlGithub: "https://github.com/FrandyMorel/PortafolioFrand",
+        urlDemo: "",
     },
     {
         id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
-        urlGithub: "www.github.com/sergiocarrasco",
-        urlDemo: "#!",
+        title: "PacaTrack",
+        image: "/Projct3.png",
+        urlGithub: "",
+        urlDemo: "",
     },
     {
         id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "www.github.com/sergiocarrasco",
-        urlDemo: "#!",
+        title: "CRUD .NET + React",
+        image: "/Projct4.png",
+        urlGithub: "https://github.com/FrandyMorel/CRUDempleados",
+        urlDemo: "https://crud-dempleados-j56o.vercel.app",
     },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "www.github.com/sergiocarrasco",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "www.github.com/sergiocarrasco",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "www.github.com/sergiocarrasco",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#www.github.com/sergiocarrasco",
-        urlDemo: "#!",
-    }
+    // {
+    //     id: 5,
+    //     title: "Webs Impactantes",
+    //     image: "/image-5.jpg",
+    //     urlGithub: "www.github.com/sergiocarrasco",
+    //     urlDemo: "#!",
+    // },
+    // {
+    //     id: 6,
+    //     title: "Web Dinámica",
+    //     image: "/image-6.jpg",
+    //     urlGithub: "www.github.com/sergiocarrasco",
+    //     urlDemo: "#!",
+    // },
+    // {
+    //     id: 7,
+    //     title: "Dark Web ",
+    //     image: "/image-7.jpg",
+    //     urlGithub: "www.github.com/sergiocarrasco",
+    //     urlDemo: "#!",
+    // },
+    // {
+    //     id: 8,
+    //     title: "E-commerce web",
+    //     image: "/image-8.jpg",
+    //     urlGithub: "#www.github.com/sergiocarrasco",
+    //     urlDemo: "#!",
+    // }
 ];
 
 export const dataTestimonials = [
