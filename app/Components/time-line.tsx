@@ -6,7 +6,7 @@ const TimeLine = () => {
     return ( 
         <div className="flex flex-col justify-center divide-y divide-slate-200">
             <div className="w-full max-w-2xl mx-auto md:pb-40 md:pt-0">
-                <div className="my-6 md:overflow-y-scroll md:h-[300px] lg:h-max scrollbar-hide">
+                <div className="my-6 md:overflow-y-scroll h-max md:h-[320px] scrollbar-hide">
                     {dataAboutPage.map((data) => (
                         <div key={data.id} className="relative py-6 pl-8 sm:pl-32 group">
                             <h1 className="mb-1 text-2xl font-bold sm:mb-0">{data.title}</h1>
