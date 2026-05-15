@@ -29,7 +29,7 @@ const PageService = () => {
        que me permiten crear soluciones innovadoras y adaptadas a las necesidades de cada proyecto,
         siempre enfocándome en la calidad y los resultados.
     </p>
-        <Link href="https://wa.me/18299098558?text=Hola%20¿Me%20comunico%20con%20Frandy%20Morel?%20Me%20interesa%20su%20perfil%20¿Puede%20hablarme%20con%20más%20detalles%20sobre%20sus%20cualidades%20y%20habilidades." className="px-3 py-2 rounded-lg mt-2 ml-4 md:ml-0 bg-secondary hover:bg-secondary/65">Contacta conmigo</Link>
+        <Link href="https://wa.me/18299098558?text=Hola%20¿Me%20comunico%20con%20Frandy%20Morel?%20Me%20interesa%20su%20perfil%20¿Puede%20hablarme%20con%20más%20detalles%20sobre%20sus%20cualidades%20y%20habilidades?" className="px-3 py-2 rounded-lg mt-2 ml-4 md:ml-0 bg-secondary hover:bg-secondary/65">Contacta conmigo</Link>
   </div>
    
    {/* slider */}
