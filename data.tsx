@@ -4,22 +4,22 @@ export const socialNetworks = [
     {
         id: 1,
         logo: <Instagram size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "",
     },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/frandymorel/",
     },
     {
         id: 3,
         logo: <Github size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://github.com/FrandyMorel",
     },
     {
         id: 4,
         logo: <File size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "/PerfilProfesionalFrandyMorel.pdf",
     },
     // {
     //     id: 5,
